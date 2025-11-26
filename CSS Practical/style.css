@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+}
+
+.container {
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 1500px; */
+}
+
+.lang {
+    display: flex;
+    justify-content: space-between;
+    color: #5c6c75;
+    background-color: #f0f3f2;
+    margin: 5px;
+    padding: 8px;
+}
+
+.Cart {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.Cart img {
+    height: 35px;
+    margin-top: 8px;
+}
+
+.icon {
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    color: #84959e;
+    margin-top: 12px;
+}
+
+.search {
+    display: flex;
+    gap: 8px;
+}
+
+.search input {
+    width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    color: #5c6c75;
+    border: 1px solid #84959e;
+
+}
+
+.search button {
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    color: #5c6c75;
+    border: 1px solid #84959e;
+    background-color: white;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+}
+
+.list button {
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: rgb(30, 190, 30);
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+li {
+    display: flex;
+}
+
+li i {
+    font-size: 20px;
+}
+
+.slider {
+    margin-top: 30px;
+    border-radius: 10px;
+    background-image: url("https://freshcart.codescandy.com/assets/images/slider/slider-2.jpg");
+    width: 100%;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    gap: 50px;
+    font-size: 25px;
+}
+
+.Smarket button {
+    display: flex;
+    width: 130px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+    padding: 12px;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+.catagories {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.cart {
+    border: 1px solid rgb(164, 132, 132);
+    padding: 45px;
+    border-radius: 8px;
+    color: #5c6c75;
+    width: 191px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    gap: 30px;
+}
+
+.banner-1 {
+    background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png);
+    width: 40rem;
+    height: 13rem;
+    /* width: 500px;
+    height: 200px; */
+    background-size: cover;
+}
+
+.banner-2 {
+    background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner-2.jpg);
+    width: 40rem;
+    height: 13rem;
+    background-size: cover;
+
+}
+
+.text {
+    margin: 50px 00px 00px 30px
+}
+
+.text button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 15px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-cards {
+    margin-top: 20px;
+    border: 1px solid rgb(164, 132, 132);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.p-cards p {
+    color: #5c6c75;
+}
+
+h4 button {
+    background-color: rgb(65, 156, 65);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 70px;
+}
+
+.p-cards:hover{
+    border: 2px solid green;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.5;
+}
+
+/* .Sells{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sells-1{
+    background-image: url(https://freshcart.codescandy.com/assets/images/banner/banner-deal.jpg);
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    width: 350px;
+    height: 500px;
+    border-radius: 8px;
+}
+.sells-1 button{
+    background-color: rgb(81, 180, 45);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.sells-2{
+    border: 1px solid rgb(164, 132, 132);
+} */
+
+.about {
+    display: flex;
+    margin-top: 85px;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #f0f3f2;
+}
+
+.f-1 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.help {
+    display: flex;
+    /* margin-top: 80px; */
+    flex-direction: column;
+    color: #5c6c75;
+}
+
+.pay{
+    display: flex;
+    padding: 15px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.f-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-3{
+    display: flex;
+    justify-content: space-between;
+    color: #5c6c75;
+    padding: 10px;
+}
