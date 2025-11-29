@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.box-1 {
+    background-color: rgb(214, 212, 212);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about img {
+    height: 150px;
+    border-radius: 45px;
+}
+
+.product {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #5c6c75;
+}
+
+p {
+    color: #5c6c75;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+    border: 1px solid #5c6c75;
+    margin: 22px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+}
